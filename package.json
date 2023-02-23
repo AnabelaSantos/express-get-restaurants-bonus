@@ -1,23 +1,32 @@
 {
   "name": "application-servers",
   "version": "1.0.0",
-  "description": "",
+  "description": "![logo](https://user-images.githubusercontent.com/44912347/202296600-c5f247d6-9616-49db-88f0-38433429d781.jpg)",
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
     "start-dev": "nodemon server.js",
-    "seed": "node seed.js"
+    "seed": "node seed.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3",
-    "jest": "27.5.1",
+    "express": "^4.18.2",
+    "jest": "^27.5.1",
     "sequelize": "^6.21.4",
     "sqlite3": "^5.0.11"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnabelaSantos/express-get-restaurants-bonus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnabelaSantos/express-get-restaurants-bonus/issues"
+  },
+  "homepage": "https://github.com/AnabelaSantos/express-get-restaurants-bonus#readme"
 }
